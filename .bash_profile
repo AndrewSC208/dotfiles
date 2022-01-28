@@ -15,13 +15,6 @@ export KUBECONFIG=$HOME/.kube/config.k8s-pddev.ameiling
 
 export TILLER_NAMESPACE="ameiling"
 
-# Junk for packer testing
-export ARM_SUBSCRIPTION_ID=af1c88ae-c328-44f3-908b-608dfb0004d5
-export ARM_TENANT_ID=d5e917df-533c-4bc8-89a0-04a9fb6d3aee
-export ARM_CLIENT_ID=a0bd9d57-cfca-43d3-bde5-5ff298845ddb
-export ARM_CLIENT_SECRET=a4cb2156-00b2-4923-b588-81460e42d2aa
-export AZURE_RESOURCE_GROUP=packer
-
 alias d='docker'
 alias h='helm'
 alias dr='draft'
